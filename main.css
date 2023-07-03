@@ -1,0 +1,119 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1440px;
+    height: 2093px;
+    margin: auto;
+    background: #FFF;
+    font-family: 'Inter';
+}
+
+.navbar{
+    display: flex;
+    width: 90%;
+    padding: 20px 76px;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-300, #CBD5E0);
+    background: var(--gray-50, #F7FAFC);
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+    margin-top: 40px;
+}
+
+.navbar a{
+    color: var(--blue-500, #3182CE);
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 28px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.button{
+    display: flex;
+    height: 48px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--blue-400, #4299E1);
+    background: var(--black, #000);
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.blockCmsLogo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.heroSection{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+    color: #171923;
+    font-size: 72px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 100%; 
+    margin-top: 4rem;
+    gap: 24px;
+    
+}
+
+.heroIllustration{
+    width: 962px;
+    height: 425px;
+    flex-shrink: 0;
+    margin-top: 72px;
+}
+
+.pageChoices{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8.75rem;
+}
+.question{
+    width: 31.75rem;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--gray-900, #171923);
+    font-size: 4.5rem;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 100%;
+}
+.comments{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 28px;
+}
+.buttonGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
